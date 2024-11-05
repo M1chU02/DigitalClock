@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #121212;
+  font-family: "Arial", sans-serif;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 8px solid #7a00cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(122, 0, 204, 0.7);
+}
+
+.time {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 0 0 10px #7a00cc;
+}
